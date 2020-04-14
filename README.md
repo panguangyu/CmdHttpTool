@@ -13,6 +13,17 @@ pip install requests
 python api.py get "http://www.test.com/json" "a=1&b=2"
 python api.py post http://www.test.com/json" "a=1&b=2"               # 支持url参数
 python api.py post http://www.test.com/json" "{"a":1, "b":2}"        # 支持json格式
+
+# 返回值
+
+<Response [200]>
+
+{
+    "code":200,
+    "data": [
+         "hello":"world"
+    ]
+}
 ```
 
 ## Usage
