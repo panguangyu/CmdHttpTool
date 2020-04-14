@@ -32,6 +32,4 @@ python api.py [get/post] "[url]" "[json/url parameters]"             # URL与URL
 ```
 
 ## website
-```
-
-```
+https://blog.csdn.net/panguangyuu/article/details/105518924
