@@ -6,13 +6,15 @@ Windows 命令行 GET/POST 请求工具，支持本地网址
 # Python 3
 
 pip install requests
+
+# Cmder(建议)
 ```
 
 ## Quick Start
 ```
-python api.py get "http://www.test.com/json" "a=1&b=2"
+python api.py get "http://www.test.com/json" a=1&b=2
 python api.py post http://www.test.com/json" "a=1&b=2"               # 支持url参数
-python api.py post http://www.test.com/json" "{"a":1, "b":2}"        # 支持json格式
+python api.py post http://www.test.com/json" {"a":1, "b":2}        # 支持json格式
 
 # 返回值
 
